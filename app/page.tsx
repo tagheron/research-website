@@ -2,19 +2,64 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white text-[#37352f]">
       <div className="mx-auto max-w-4xl px-6 py-14 md:px-10">
-        <section className="mb-8 flex flex-col items-start gap-5 sm:flex-row sm:items-center sm:gap-8">
-          <img
-            src="/theo-headshot.jpg"
-            alt="Theo Heron headshot"
-            className="h-28 w-28 rounded-full object-cover grayscale sm:h-32 sm:w-32"
-          />
+        <section className="mb-12">
+          <div className="flex items-center gap-5 md:items-start md:gap-8">
+            <img
+              src="/theo-headshot.jpg"
+              alt="Theo Heron headshot"
+              className="h-24 w-24 rounded-full object-cover grayscale md:h-32 md:w-32"
+            />
 
-          <div className="max-w-3xl">
-            <h1 className="text-4xl font-semibold tracking-tight sm:text-[2.65rem]">
-              Theo Heron
-            </h1>
+            <div className="min-w-0">
+              <h1 className="text-3xl font-semibold tracking-tight md:text-[2.65rem]">
+                Theo Heron
+              </h1>
 
-            <p className="mt-3 text-lg leading-7">
+              <div className="mt-4 hidden md:block">
+                <p className="text-lg leading-7">
+                  Incoming M.S. Chemical Engineering Student, Columbia University
+                </p>
+
+                <p className="mt-1.5 text-base leading-7">
+                  Battery Materials · Solid Electrolytes · X-ray Scattering · Electrochemical Energy Storage
+                </p>
+
+                <div className="mt-5 flex flex-wrap gap-4 text-sm">
+                  <a
+                    className="underline underline-offset-4 hover:opacity-70"
+                    href="mailto:th3251@columbia.edu"
+                  >
+                    Email
+                  </a>
+                  <a
+                    className="underline underline-offset-4 hover:opacity-70"
+                    href="/cv.pdf"
+                  >
+                    CV
+                  </a>
+                  <a
+                    className="underline underline-offset-4 hover:opacity-70"
+                    href="https://www.linkedin.com/in/theo-heron/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    LinkedIn
+                  </a>
+                  <a
+                    className="underline underline-offset-4 hover:opacity-70"
+                    href="https://github.com/tagheron"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-6 md:hidden">
+            <p className="text-lg leading-7">
               Incoming M.S. Chemical Engineering Student, Columbia University
             </p>
 
@@ -79,6 +124,7 @@ export default function Home() {
                 relate to ion transport.
               </p>
             </div>
+
             <div>
               <h3 className="text-lg font-medium">X-ray Scattering and Ion Dynamics</h3>
               <p className="mt-2 leading-7">
