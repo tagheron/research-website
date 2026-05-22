@@ -6,14 +6,14 @@ export default function Home() {
         <section className="mb-12">
           {/* Mobile */}
           <div className="md:hidden">
-            <div className="flex items-center justify-center gap-5">
+            <div className="flex items-center justify-center gap-4">
               <img
                 src="/theo-headshot.jpg"
                 alt="Theo Heron headshot"
-                className="h-24 w-24 rounded-full object-cover grayscale"
+                className="h-20 w-20 rounded-full object-cover grayscale"
               />
 
-              <h1 className="text-3xl font-semibold tracking-tight">
+              <h1 className="text-[2rem] font-semibold tracking-tight">
                 Theo Heron
               </h1>
             </div>
@@ -59,7 +59,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-          </div>
+</div>
 
           {/* Desktop */}
           <div className="hidden md:flex md:items-start md:gap-8">
@@ -173,7 +173,7 @@ export default function Home() {
           </ul>
         </section>
 
-        <section>
+        <section className="mb-0">
           <h2 className="text-2xl font-semibold">To What End?</h2>
           <p className="mt-4 leading-8 md:leading-7">
             My long-term goal is to understand and improve battery materials for safer, faster-charging,
