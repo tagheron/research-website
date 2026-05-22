@@ -6,22 +6,24 @@ export default function Home() {
         <section className="mb-12">
           {/* Mobile */}
           <div className="md:hidden">
-            <div className="flex flex-col items-center text-center">
+            <div className="flex items-center justify-center gap-5">
               <img
                 src="/theo-headshot.jpg"
                 alt="Theo Heron headshot"
                 className="h-24 w-24 rounded-full object-cover grayscale"
               />
 
-              <h1 className="mt-5 text-3xl font-semibold tracking-tight">
+              <h1 className="text-3xl font-semibold tracking-tight">
                 Theo Heron
               </h1>
+            </div>
 
-              <p className="mt-4 max-w-sm text-lg leading-8">
+            <div className="mt-7 text-center">
+              <p className="mx-auto max-w-sm text-lg leading-8">
                 Incoming M.S. Chemical Engineering Student, Columbia University
               </p>
 
-              <p className="mt-3 max-w-sm text-base leading-8">
+              <p className="mx-auto mt-3 max-w-sm text-base leading-8">
                 Battery Materials · Solid Electrolytes · X-ray Scattering ·
                 Electrochemical Energy Storage
               </p>
