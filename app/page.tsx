@@ -136,7 +136,7 @@ export default function Home() {
                 Pressure-Dependent Diffraction of Solid Electrolytes
               </h3>
               <p className="mt-2 leading-8 md:leading-7">
-                I study pressure-dependent powder diffraction data from Na₂B₁₀H₁₀-based solid
+                I study pressure-dependent powder diffraction data from sodium-based solid
                 electrolytes to understand how lattice structure, distortion, and phase behavior may
                 relate to ion transport.
               </p>
@@ -144,11 +144,20 @@ export default function Home() {
 
             <div>
               <h3 className="text-lg font-medium">X-ray Scattering and Ion Dynamics</h3>
+
+              <img
+                src="/xpcs-diagram.png"
+                alt="XPCS experimental schematic"
+                className="mx-auto my-4 w-full max-w-xs rounded-md md:float-right md:ml-6 md:mb-4 md:mt-1 md:w-56"
+              />
+
               <p className="mt-2 leading-8 md:leading-7">
                 My undergraduate research in the Shpyrko Group at UC San Diego involved synchrotron
                 X-ray scattering methods, including XPCS, to study dynamic behavior in solid electrolyte
                 materials.
               </p>
+
+              <div className="clear-both" />
             </div>
 
             <div>
