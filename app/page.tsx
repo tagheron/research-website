@@ -166,11 +166,12 @@ export default function Home() {
             </div>
 
             <div>
-              <h3 className="text-lg font-medium">Battery Materials Interests</h3>
+              <h3 className="text-lg font-medium"> Renewable Cathodes for Electric Vehicles</h3>
               <p className="mt-2 leading-8 md:leading-7">
-                I am broadly interested in solid-state batteries, dry-process electrode fabrication,
-                battery degradation mechanisms, and novel electrolytes for next-generation energy
-                storage.
+                I worked on slurry preparation and cathode casting for electric vehicle
+                battery materials at the University of Chicago, with a focus on electrode
+                fabrication and cathode processing. This work helped shape my interest in
+                dry-process electrode fabrication and battery degradation mechanisms.
               </p>
             </div>
           </div>
