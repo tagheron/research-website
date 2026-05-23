@@ -19,8 +19,11 @@ export default function Home() {
             </div>
 
             <div className="mt-7 text-center">
-              <p className="mx-auto max-w-sm text-lg leading-8">
-                Incoming M.S. Chemical Engineering Student, Columbia University
+              <p className="mt-4 text-lg leading-7">
+                Incoming M.S. Chemical Engineering Student,{" "}
+                <span className="font-bold" style={{ color: "#5B8FB9" }}>
+                  Columbia University
+                </span>
               </p>
 
               <p className="mx-auto mt-3 max-w-sm text-base leading-8">
@@ -75,7 +78,10 @@ export default function Home() {
               </h1>
 
               <p className="mt-4 text-lg leading-7">
-                Incoming M.S. Chemical Engineering Student, Columbia University
+                Incoming M.S. Chemical Engineering Student,{" "}
+                <span className="font-medium" style={{color: "#5B8FB9" }}>
+                  Columbia University
+                </span>
               </p>
 
               <p className="mt-2 text-base leading-7">
@@ -130,7 +136,7 @@ export default function Home() {
         <section className="mb-12">
           <h2 className="text-2xl font-semibold">Research</h2>
 
-          <div className="mt-6 space-y-8">
+          <div className="mt-6 space-y-6">
             <div>
               <h3 className="text-lg font-medium">
                 Pressure-Dependent Diffraction of Solid Electrolytes
@@ -145,34 +151,50 @@ export default function Home() {
             <div>
               <h3 className="text-lg font-medium">X-ray Scattering and Ion Dynamics</h3>
 
-              <figure className="mx-auto my-4 w-full max-w-xs md:float-right md:ml-6 md:mb-4 md:mt-1 md:w-56">
-                <img
-                  src="/xpcs-diagram.png"
-                  alt="XPCS experimental schematic"
-                  className="w-full rounded-md"
-                />
-                <figcaption className="mb-2 text-center text-xs font-medium text-[#6f6a63]">
-                  XPCS schematic
-                </figcaption>
-              </figure>
+              <div className="mt-2 grid gap-4 md:grid-cols-[1fr_220px] md:items-start">
+                <p className="leading-8 md:leading-7">
+                  My undergraduate research in the Shpyrko Group at UC San Diego involved synchrotron
+                  X-ray scattering methods, including XPCS, to study dynamic behavior in solid electrolyte
+                  materials.
+                </p>
 
-              <p className="mt-2 leading-8 md:leading-7">
-                My undergraduate research in the Shpyrko Group at UC San Diego involved synchrotron
-                X-ray scattering methods, including XPCS, to study dynamic behavior in solid electrolyte
-                materials.
-              </p>
+                <figure className="mx-auto w-full max-w-xs md:w-full">
+                  <img
+                    src="/xpcs-diagram.png"
+                    alt="XPCS experimental schematic"
+                    className="w-full rounded-md"
+                  />
 
-              <div className="clear-both" />
+                  <figcaption className="mt-2 text-center text-xs font-medium text-[#6f6a63]">
+                    XPCS schematic
+                  </figcaption>
+                </figure>
+              </div>
             </div>
-
             <div>
-              <h3 className="text-lg font-medium"> Renewable Cathodes for Electric Vehicles</h3>
-              <p className="mt-2 leading-8 md:leading-7">
-                I worked on slurry preparation and cathode casting for electric vehicle
-                battery materials at the University of Chicago, with a focus on electrode
-                fabrication and cathode processing. This work helped shape my interest in
-                dry-process electrode fabrication and battery degradation mechanisms.
-              </p>
+              <h3 className="text-lg font-medium">
+                Renewable Cathodes for Electric Vehicles
+              </h3>
+
+              <div className="mt-2 grid gap-4 md:grid-cols-[1fr_140px] md:items-start">
+                <p className="leading-8 md:leading-7">
+                  I worked on slurry preparation and cathode casting for electric vehicle
+                  battery materials at the University of Chicago. This work helped shape my interest in
+                  dry-process electrode fabrication and battery degradation mechanisms.
+                </p>
+
+                <figure className="mx-auto w-full max-w-xs md:w-full">
+                  <img
+                    src="/cathode-capacity.png"
+                    alt="Cathode thickness versus areal capacity"
+                    className="w-full"
+                  />
+
+                  <figcaption className="mt-2 text-center text-xs font-medium text-[#6f6a63]">
+                    Cathode Thickness vs. Capacity
+                  </figcaption>
+                </figure>
+              </div>
             </div>
           </div>
         </section>
