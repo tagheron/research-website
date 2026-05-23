@@ -176,14 +176,14 @@ export default function Home() {
                 Renewable Cathodes for Electric Vehicles
               </h3>
 
-              <div className="mt-2 grid gap-4 md:grid-cols-[1fr_140px] md:items-start">
+              <div className="mt-2 grid gap-4 md:grid-cols-[1fr_220px] md:items-start">
                 <p className="leading-8 md:leading-7">
                   I worked on slurry preparation and cathode casting for electric vehicle
                   battery materials at the University of Chicago. This work helped shape my interest in
                   dry-process electrode fabrication and battery degradation mechanisms.
                 </p>
 
-                <figure className="mx-auto w-full max-w-xs md:w-full">
+                <figure className="mx-auto w-full max-w-4xl md:max-w-6xl">
                   <img
                     src="/cathode-capacity.png"
                     alt="Cathode thickness versus areal capacity"
