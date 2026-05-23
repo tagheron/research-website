@@ -146,15 +146,14 @@ export default function Home() {
               <h3 className="text-lg font-medium">X-ray Scattering and Ion Dynamics</h3>
 
               <figure className="mx-auto my-4 w-full max-w-xs md:float-right md:ml-6 md:mb-4 md:mt-1 md:w-56">
-                <figcaption className="mb-2 text-center text-xs font-medium text-[#6f6a63]">
-                  XPCS schematic
-                </figcaption>
-
                 <img
                   src="/xpcs-diagram.png"
                   alt="XPCS experimental schematic"
                   className="w-full rounded-md"
                 />
+                <figcaption className="mb-2 text-center text-xs font-medium text-[#6f6a63]">
+                  XPCS schematic
+                </figcaption>
               </figure>
 
               <p className="mt-2 leading-8 md:leading-7">
