@@ -78,7 +78,7 @@ export default function Home() {
               </h1>
 
               <p className="mt-4 text-lg leading-7">
-                Incoming M.S. Chemical Engineering Student,{" "}
+                M.S. Chemical Engineering Student,{" "}
                 <span className="font-normal" style={{color: "#5B8FB9" }}>
                   Columbia University
                 </span>
