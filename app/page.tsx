@@ -118,6 +118,21 @@ export default function Home() {
                 >
                   GitHub
                 </a>
+
+                <div className="projectDropdown">
+                  <input id="projects-toggle" className="projectToggle" type="checkbox" />
+
+                  <label htmlFor="projects-toggle" className="projectButton">
+                    <span className="projectText">Projects</span>
+                    <span className="projectArrow"></span>
+                  </label>
+
+                  <div className="projectMenu">
+                    <a href="https://battery-finance-dashboard-avem6lv3pgksnpkenlugeq.streamlit.app/">
+                      Battery Dashboard
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
